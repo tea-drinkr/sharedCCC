@@ -1,0 +1,20 @@
+git status
+# to see the changes that you made
+
+git add .
+# to update the all the files that you have deleted/created
+
+git commit -m "watever"
+# to update all the code u wrote
+
+git push -f origin master
+# to finally update the code to github.commit
+
+git pull -f origin master
+# to update your local repository 
+
+git add . -> git commit "whatyoudid" -> git push -f origin master
+# to update the changes you made
+
+git pull -f origin master
+# to update the changes others made to your local repository
