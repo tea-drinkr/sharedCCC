@@ -1,0 +1,25 @@
+# CMPRO 2020
+# Question on 2011 CCC
+# Question 1
+#
+antenna = int(input("How many antennas? "))
+
+eyes = int(input("How many eyes? "))
+
+
+if (3 <= antenna) and (eyes <= 4):
+    print ("TroyMartian")
+else:
+    print ("")
+breakpoint
+
+if (antenna <= 6) and (2 <= eyes):
+    print ("VladSaturnian")
+else:
+    print ("")
+breakpoint
+
+if (antenna <= 2) and (eyes <= 3):
+    print ("GraemeMercurian")
+else:
+    print ("")
